@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB24821D25546C9900C3FD49 /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB24821C25546C9900C3FD49 /* Item-CoreDataHelpers.swift */; };
+		AB24822025546E9E00C3FD49 /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB24821F25546E9E00C3FD49 /* Project-CoreDataHelpers.swift */; };
 		AB455A98254FC13D00BB828F /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB455A97254FC13D00BB828F /* CloudKit.framework */; };
 		AB455A9B2550377800BB828F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB455A9A2550377800BB828F /* HomeView.swift */; };
 		AB455A9E2550388000BB828F /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB455A9D2550388000BB828F /* ProjectsView.swift */; };
@@ -16,9 +18,13 @@
 		AB7CD7F2254D979200C7C829 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB7CD7F1254D979200C7C829 /* Preview Assets.xcassets */; };
 		AB7CD7FC254D982900C7C829 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB7CD7FA254D982900C7C829 /* Main.xcdatamodeld */; };
 		AB7CD7FF254D9D2E00C7C829 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7CD7FE254D9D2E00C7C829 /* DataController.swift */; };
+		AB7DCF242559EC4900894B77 /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7DCF232559EC4900894B77 /* EditItemView.swift */; };
+		AB7DCF27255A413300894B77 /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7DCF26255A413300894B77 /* ItemRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB24821C25546C9900C3FD49 /* Item-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		AB24821F25546E9E00C3FD49 /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		AB455A94254FC12100BB828F /* Tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tracker.entitlements; sourceTree = "<group>"; };
 		AB455A97254FC13D00BB828F /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		AB455A9A2550377800BB828F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -31,6 +37,8 @@
 		AB7CD7F3254D979200C7C829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB7CD7FB254D982900C7C829 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
 		AB7CD7FE254D9D2E00C7C829 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		AB7DCF232559EC4900894B77 /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
+		AB7DCF26255A413300894B77 /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +85,11 @@
 				AB7CD7EA254D978E00C7C829 /* TrackerApp.swift */,
 				AB455A9A2550377800BB828F /* HomeView.swift */,
 				AB455A9D2550388000BB828F /* ProjectsView.swift */,
+				AB7DCF26255A413300894B77 /* ItemRowView.swift */,
 				AB7CD7EC254D978E00C7C829 /* ContentView.swift */,
+				AB7DCF232559EC4900894B77 /* EditItemView.swift */,
+				AB24821C25546C9900C3FD49 /* Item-CoreDataHelpers.swift */,
+				AB24821F25546E9E00C3FD49 /* Project-CoreDataHelpers.swift */,
 				AB7CD7FA254D982900C7C829 /* Main.xcdatamodeld */,
 				AB7CD7FE254D9D2E00C7C829 /* DataController.swift */,
 				AB7CD7EE254D979200C7C829 /* Assets.xcassets */,
@@ -166,10 +178,14 @@
 			files = (
 				AB7CD7FC254D982900C7C829 /* Main.xcdatamodeld in Sources */,
 				AB7CD7FF254D9D2E00C7C829 /* DataController.swift in Sources */,
+				AB24822025546E9E00C3FD49 /* Project-CoreDataHelpers.swift in Sources */,
 				AB455A9B2550377800BB828F /* HomeView.swift in Sources */,
+				AB7DCF27255A413300894B77 /* ItemRowView.swift in Sources */,
 				AB455A9E2550388000BB828F /* ProjectsView.swift in Sources */,
 				AB7CD7ED254D978E00C7C829 /* ContentView.swift in Sources */,
 				AB7CD7EB254D978E00C7C829 /* TrackerApp.swift in Sources */,
+				AB24821D25546C9900C3FD49 /* Item-CoreDataHelpers.swift in Sources */,
+				AB7DCF242559EC4900894B77 /* EditItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
