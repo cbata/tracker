@@ -25,7 +25,6 @@ struct ProjectHeaderView: View {
             }
         }
         .padding(.bottom, 10)
-        .padding(.top, 10)
     }
 }
 

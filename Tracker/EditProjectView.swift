@@ -13,7 +13,6 @@ struct EditProjectView: View {
     @EnvironmentObject var dataController: DataController
     @Environment(\.presentationMode) var presentationMode
     
-    
     @State private var title: String
     @State private var detail: String
     @State private var color: String
