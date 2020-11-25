@@ -10,7 +10,7 @@ import Foundation
 struct Award: Decodable, Identifiable {
     var id: String { name }
     let name: String
-    let descriptiom: String
+    let description: String
     let color: String
     let criterion: String
     let value: Int

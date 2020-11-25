@@ -29,6 +29,7 @@
 		ABAA9847256BE2370006BB31 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAA9846256BE2370006BB31 /* Bundle-Decodable.swift */; };
 		ABAA984A256BEC5B0006BB31 /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = ABAA9849256BEC5A0006BB31 /* Awards.json */; };
 		ABAA984D256BEE8E0006BB31 /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAA984C256BEE8E0006BB31 /* Award.swift */; };
+		ABAA9850256C04F20006BB31 /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAA984F256C04F20006BB31 /* AwardsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		ABAA9846256BE2370006BB31 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		ABAA9849256BEC5A0006BB31 /* Awards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Awards.json; sourceTree = "<group>"; };
 		ABAA984C256BEE8E0006BB31 /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
+		ABAA984F256C04F20006BB31 /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				AB7CD7FA254D982900C7C829 /* Main.xcdatamodeld */,
 				ABAA9849256BEC5A0006BB31 /* Awards.json */,
 				ABAA984C256BEE8E0006BB31 /* Award.swift */,
+				ABAA984F256C04F20006BB31 /* AwardsView.swift */,
 				AB7CD7F0254D979200C7C829 /* Preview Content */,
 				AB24821F25546E9E00C3FD49 /* Project-CoreDataHelpers.swift */,
 				AB7DCF2D255B10FB00894B77 /* ProjectHeaderView.swift */,
@@ -207,6 +210,7 @@
 			files = (
 				AB7CD7FC254D982900C7C829 /* Main.xcdatamodeld in Sources */,
 				AB7DCF2E255B10FB00894B77 /* ProjectHeaderView.swift in Sources */,
+				ABAA9850256C04F20006BB31 /* AwardsView.swift in Sources */,
 				AB7CD7FF254D9D2E00C7C829 /* DataController.swift in Sources */,
 				AB24822025546E9E00C3FD49 /* Project-CoreDataHelpers.swift in Sources */,
 				AB7DCF34255B941300894B77 /* EditProjectView.swift in Sources */,
