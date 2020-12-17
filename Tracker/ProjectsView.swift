@@ -83,7 +83,12 @@ struct ProjectsView: View {
                                 dataController.save()
                             }
                         } label: {
-                            Label("Add Project", systemImage: "plus")
+                            // this is a hack. Remove once Apple fixes this issue
+                            if UIAccessibility.isVoiceOverRunning {
+                                Text("Add Project")
+                            } else {
+                                Label("Add Project", systemImage: "plus")
+                            }
                         }
                     }
                 }
