@@ -101,8 +101,6 @@ struct ProjectsView: View {
                 .default(Text("Title")) { sortOrder = .title },
             ])
         }
-        
-        SelectSomethingView()
     }
     
     func addProject() {

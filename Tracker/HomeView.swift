@@ -33,11 +33,6 @@ struct HomeView: View {
     
     var body: some View {
         NavigationView {
-//            Button("Add Data") {
-//                dataController.deleteAll()
-//                try? dataController.createSampleData()
-//            }
-
             ScrollView {
                 VStack(alignment: .leading) {
                     ScrollView(.horizontal, showsIndicators: false) {
@@ -57,6 +52,12 @@ struct HomeView: View {
             }
             .background(Color.systemGroupedBackground.ignoresSafeArea())
             .navigationTitle("Home")
+            .toolbar {
+                Button("Add Data") {
+                    dataController.deleteAll()
+                    try? dataController.createSampleData()
+                }
+            }
         }
     }
 }
