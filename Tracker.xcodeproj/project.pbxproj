@@ -86,6 +86,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB35E49125FD44D400676DE2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AB24821C25546C9900C3FD49 /* Item-CoreDataHelpers.swift */,
+				AB24821F25546E9E00C3FD49 /* Project-CoreDataHelpers.swift */,
+				AB7DCF2A255B02DC00894B77 /* Binding-OnChange.swift */,
+				AB6514C52576C6AF00E849C1 /* Color-Additions.swift */,
+				AB628B6E2564683D005576E6 /* Sequence-Sorting.swift */,
+				ABAA9846256BE2370006BB31 /* Bundle-Decodable.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AB35E49225FD44DE00676DE2 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				AB66CBBA258B9D82007C50BA /* Localizable.strings */,
+				AB66CBBF258B9E5A007C50BA /* Localizable.stringsdict */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		AB35E49325FD44F100676DE2 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				AB7CD7F3254D979200C7C829 /* Info.plist */,
+				AB455A94254FC12100BB828F /* Tracker.entitlements */,
+				AB7CD7FA254D982900C7C829 /* Main.xcdatamodeld */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		AB35E49425FD453400676DE2 /* Activities */ = {
+			isa = PBXGroup;
+			children = (
+				AB35E49925FD482F00676DE2 /* Home */,
+				AB49DB952591241700694D39 /* ItemListView.swift */,
+				AB455A9A2550377800BB828F /* HomeView.swift */,
+				AB49DB992591556D00694D39 /* ProjectSummaryView.swift */,
+				AB35E49825FD482500676DE2 /* Projects */,
+				AB35E49525FD454600676DE2 /* Awards */,
+			);
+			path = Activities;
+			sourceTree = "<group>";
+		};
+		AB35E49525FD454600676DE2 /* Awards */ = {
+			isa = PBXGroup;
+			children = (
+				ABAA984C256BEE8E0006BB31 /* Award.swift */,
+				AB66CBC5258BA081007C50BA /* Awards.json */,
+				ABAA984F256C04F20006BB31 /* AwardsView.swift */,
+			);
+			path = Awards;
+			sourceTree = "<group>";
+		};
+		AB35E49825FD482500676DE2 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				AB7DCF2D255B10FB00894B77 /* ProjectHeaderView.swift */,
+				AB455A9D2550388000BB828F /* ProjectsView.swift */,
+				AB7DCF232559EC4900894B77 /* EditItemView.swift */,
+				AB7DCF26255A413300894B77 /* ItemRowView.swift */,
+				ABAA9843256A99300006BB31 /* SelectSomethingView.swift */,
+				AB7DCF33255B941300894B77 /* EditProjectView.swift */,
+			);
+			path = Projects;
+			sourceTree = "<group>";
+		};
+		AB35E49925FD482F00676DE2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		AB455A96254FC13D00BB828F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,35 +189,16 @@
 		AB7CD7E9254D978E00C7C829 /* Tracker */ = {
 			isa = PBXGroup;
 			children = (
-				AB7CD7EE254D979200C7C829 /* Assets.xcassets */,
-				ABAA984C256BEE8E0006BB31 /* Award.swift */,
-				AB66CBC5258BA081007C50BA /* Awards.json */,
-				ABAA984F256C04F20006BB31 /* AwardsView.swift */,
-				AB7DCF2A255B02DC00894B77 /* Binding-OnChange.swift */,
-				ABAA9846256BE2370006BB31 /* Bundle-Decodable.swift */,
-				AB6514C52576C6AF00E849C1 /* Color-Additions.swift */,
-				AB7DCF30255B174800894B77 /* Colors.xcassets */,
+				AB35E49425FD453400676DE2 /* Activities */,
+				AB35E49325FD44F100676DE2 /* Configuration */,
+				AB35E49225FD44DE00676DE2 /* Localization */,
+				AB35E49125FD44D400676DE2 /* Extensions */,
+				AB7CD7EA254D978E00C7C829 /* TrackerApp.swift */,
 				AB7CD7EC254D978E00C7C829 /* ContentView.swift */,
 				AB7CD7FE254D9D2E00C7C829 /* DataController.swift */,
-				AB7DCF232559EC4900894B77 /* EditItemView.swift */,
-				AB7DCF33255B941300894B77 /* EditProjectView.swift */,
-				AB455A9A2550377800BB828F /* HomeView.swift */,
-				AB7CD7F3254D979200C7C829 /* Info.plist */,
-				AB24821C25546C9900C3FD49 /* Item-CoreDataHelpers.swift */,
-				AB49DB952591241700694D39 /* ItemListView.swift */,
-				AB7DCF26255A413300894B77 /* ItemRowView.swift */,
-				AB66CBBA258B9D82007C50BA /* Localizable.strings */,
-				AB66CBBF258B9E5A007C50BA /* Localizable.stringsdict */,
-				AB7CD7FA254D982900C7C829 /* Main.xcdatamodeld */,
+				AB7CD7EE254D979200C7C829 /* Assets.xcassets */,
+				AB7DCF30255B174800894B77 /* Colors.xcassets */,
 				AB7CD7F0254D979200C7C829 /* Preview Content */,
-				AB24821F25546E9E00C3FD49 /* Project-CoreDataHelpers.swift */,
-				AB7DCF2D255B10FB00894B77 /* ProjectHeaderView.swift */,
-				AB49DB992591556D00694D39 /* ProjectSummaryView.swift */,
-				AB455A9D2550388000BB828F /* ProjectsView.swift */,
-				ABAA9843256A99300006BB31 /* SelectSomethingView.swift */,
-				AB628B6E2564683D005576E6 /* Sequence-Sorting.swift */,
-				AB455A94254FC12100BB828F /* Tracker.entitlements */,
-				AB7CD7EA254D978E00C7C829 /* TrackerApp.swift */,
 			);
 			path = Tracker;
 			sourceTree = "<group>";
@@ -163,6 +219,7 @@
 			buildConfigurationList = AB7CD7F6254D979200C7C829 /* Build configuration list for PBXNativeTarget "Tracker" */;
 			buildPhases = (
 				AB7CD7E3254D978E00C7C829 /* Sources */,
+				AB63553725B3407F0094062E /* SwiftLint */,
 				AB7CD7E4254D978E00C7C829 /* Frameworks */,
 				AB7CD7E5254D978E00C7C829 /* Resources */,
 			);
@@ -223,6 +280,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AB63553725B3407F0094062E /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AB7CD7E3254D978E00C7C829 /* Sources */ = {
@@ -409,12 +487,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Tracker/Tracker.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Tracker/Configuration/Tracker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Tracker/Preview Content\"";
 				DEVELOPMENT_TEAM = VH6V5E99AW;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Tracker/Info.plist;
+				INFOPLIST_FILE = Tracker/Configuration/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -432,12 +510,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Tracker/Tracker.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Tracker/Configuration/Tracker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Tracker/Preview Content\"";
 				DEVELOPMENT_TEAM = VH6V5E99AW;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Tracker/Info.plist;
+				INFOPLIST_FILE = Tracker/Configuration/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
