@@ -12,6 +12,8 @@
 		AB35E4A525FD655C00676DE2 /* TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB35E4A425FD655C00676DE2 /* TrackerTests.swift */; };
 		AB35E4AF25FD683800676DE2 /* AssetTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB35E4AE25FD683800676DE2 /* AssetTest.swift */; };
 		AB35E4B325FD74D200676DE2 /* ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB35E4B225FD74D100676DE2 /* ProjectTests.swift */; };
+		AB35E4B92601125200676DE2 /* AwardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB35E4B82601125200676DE2 /* AwardTests.swift */; };
+		AB35E4BF2601B59900676DE2 /* DevelopmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB35E4BE2601B59900676DE2 /* DevelopmentTests.swift */; };
 		AB455A98254FC13D00BB828F /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB455A97254FC13D00BB828F /* CloudKit.framework */; };
 		AB455A9B2550377800BB828F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB455A9A2550377800BB828F /* HomeView.swift */; };
 		AB455A9E2550388000BB828F /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB455A9D2550388000BB828F /* ProjectsView.swift */; };
@@ -58,6 +60,8 @@
 		AB35E4A625FD655C00676DE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB35E4AE25FD683800676DE2 /* AssetTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetTest.swift; sourceTree = "<group>"; };
 		AB35E4B225FD74D100676DE2 /* ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTests.swift; sourceTree = "<group>"; };
+		AB35E4B82601125200676DE2 /* AwardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AwardTests.swift; path = TrackerTests/AwardTests.swift; sourceTree = SOURCE_ROOT; };
+		AB35E4BE2601B59900676DE2 /* DevelopmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevelopmentTests.swift; sourceTree = "<group>"; };
 		AB455A94254FC12100BB828F /* Tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tracker.entitlements; sourceTree = "<group>"; };
 		AB455A97254FC13D00BB828F /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		AB455A9A2550377800BB828F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -189,6 +193,8 @@
 		AB35E4A325FD655C00676DE2 /* TrackerTests */ = {
 			isa = PBXGroup;
 			children = (
+				AB35E4BE2601B59900676DE2 /* DevelopmentTests.swift */,
+				AB35E4B82601125200676DE2 /* AwardTests.swift */,
 				AB35E4B225FD74D100676DE2 /* ProjectTests.swift */,
 				AB35E4A425FD655C00676DE2 /* TrackerTests.swift */,
 				AB35E4AE25FD683800676DE2 /* AssetTest.swift */,
@@ -376,8 +382,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB35E4AF25FD683800676DE2 /* AssetTest.swift in Sources */,
+				AB35E4B92601125200676DE2 /* AwardTests.swift in Sources */,
 				AB35E4A525FD655C00676DE2 /* TrackerTests.swift in Sources */,
 				AB35E4B325FD74D200676DE2 /* ProjectTests.swift in Sources */,
+				AB35E4BF2601B59900676DE2 /* DevelopmentTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
